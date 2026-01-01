@@ -16,6 +16,14 @@ ENV/
 
 # ChromaDB
 backend/chroma_db/
+chroma_db/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+*.cover
+coverage.xml
 
 # Uploads
 uploads/
